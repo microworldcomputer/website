@@ -468,7 +468,7 @@ section {
 }
 
 .section-bg {
-  background-color:#A2ACBD;
+  background-color:#b4dfff;
 }
 
 .section-title {
@@ -559,7 +559,7 @@ section {
 .about h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #4e4039;
+  color: #333;
 }
 
 .about h4 {
@@ -572,13 +572,23 @@ section {
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #f39e7a;
+  color: var(--p-color);
 }
 
 .about p {
   font-size: 15px;
   color: #5a6570;
 }
+
+.about p i{
+  font-size: 20px;
+}
+
+.about-list li{
+  display: flex;
+
+}
+
 
 @media (max-width: 991px) {
   .about .about-img img {
@@ -1198,7 +1208,7 @@ section {
   padding: 0 0 30px 0;
   color: #212529;
   font-size: 14px;
-  background: #fef8f5;
+  background: #b4dfff;
 }
 
 #footer .footer-newsletter {
