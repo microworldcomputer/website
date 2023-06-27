@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: #eb5d1e;
+  color: var(--p-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ef7f4d;
+  color: #111;
   text-decoration: none;
 }
 
@@ -527,7 +527,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #fef5f1;
+  background-color: #fff;
   min-height: 40px;
 }
 
@@ -831,6 +831,10 @@ section {
   padding-top: 40px;
 }
 
+.portfolio-details .portfolio-details-slider  {
+  width: 400px;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -845,11 +849,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #eb5d1e;
+  border: 1px solid var(--p-color);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #eb5d1e;
+  background-color: var(--p-color);
 }
 
 .portfolio-details .portfolio-info {
@@ -910,14 +914,14 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #eb5d1e;
+  font-family: var(--p-color);
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   font-weight: 600;
   padding-left: 25px;
   cursor: pointer;
-  color: #c54811;
+  color: var(--p-color);
   transition: 0.3s;
 }
 
@@ -942,7 +946,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #eb5d1e;
+  color: var(--p-color);
 }
 
 .faq .faq-list .collapsed .icon-show {
