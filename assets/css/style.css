@@ -832,7 +832,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider  {
-  width: 400px;
+  /* width: 400px; */
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -858,7 +858,6 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(122, 105, 96, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -893,6 +892,24 @@ section {
   padding: 0;
 }
 
+.warranty-card{
+  /* background:var(--p-color); */
+  color:#111;
+  border-radius: 8px;
+
+}
+.warranty-card i {
+  margin-right: 20px;
+  font-size: 100px;
+}
+.tc_icon{
+  font-size: 28px;
+
+}
+
+.alert-dark{
+  border:none;
+}
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
