@@ -695,6 +695,12 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
+.portfolio-item .card .card-body .card-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -824,6 +830,12 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+
+.card p{
+   font-size: 14px !important;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
